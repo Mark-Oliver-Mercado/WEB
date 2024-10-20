@@ -1,0 +1,144 @@
+html {
+    scroll-padding-top: 70px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar{
+    background-color: #0A5C36;
+}
+.navbar, .navbar a {
+    color: #f1f2ed;
+}
+.navbar-toggler{
+    background-color: #f1f2ed;
+}
+
+.navbar-toggler-icon{
+    background-color: #f1f2ed;
+  
+}
+
+.head::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.head h1,
+.head h2,
+.head p {
+    position: relative;
+    z-index: 2;
+    color: #f1f2ed !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.head .btn {
+    position: relative;
+    z-index: 3;
+}
+
+.btn-primary {
+    background-color: #0A5C36!important;
+    color: #f1f2ed !important ;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #2dd635 !important;
+}
+
+.btn-outline-secondary {
+    border-color: #f1f2ed !important;
+    color: #f1f2ed !important ;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f1f2ed !important;
+    color: black !important;
+}
+
+.about{
+    background-color:#f1f2ed !important;
+}
+  
+  
+
+
+
+.no-underline {
+    text-decoration: none;
+}
+
+.container{
+    background-color: #f1f2ed;
+}
+
+.custom-card:hover {
+    transform: scale(1.05); 
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text-shadow-1 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    transition: text-shadow 0.3s ease; 
+}
+
+.custom-card:hover .text-shadow-1 {
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.9);
+}
+
+
+.custom-card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: 2px solid black; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 8px; 
+}
+
+.custom-card .text-overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+.custom-card h3 {
+    color: white !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.feat{
+    background-color: #DAD7CD;
+}
+.footer-text-white {
+    color: white !important;
+    background-color: #0A5C36;
+}
+
+.footer-text-white a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer-text-white a:hover {
+    color: black !important;
+}
+
+.footer-text-white h5, .footer-text-white p, .footer-text-white li {
+    color: white !important;
+}
+
+

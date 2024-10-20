@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ant Chronicles</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <style>
+    
+    .head {
+    background-image: url('./image/leafcutter.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #f1f2ed;
+}
+
+    .text-background {
+    background-image: url('./image/honeypot.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .text-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+  }
+  
+  .text-background h1,
+  .text-background h2,
+  .text-background h6,
+  .text-background p {
+    color: white !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <nav class="navbar">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#Home">
+                  <img src="./image/ants.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Ant Chronicles
+              </a>
+          </div>
+      </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact Us</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+<section id="Home">
+  <div class=" head px-4 py-5 my-0 text-center">
+    <br>
+    <br>
+    <br>
+    <h1 class="display-5 fw-bold text-body-emphasis">Welcome to Ant Chronicles</h1>
+    <h2 class="display-5 text-body-emphasis">Discover the Fascinating World of Ants</h2>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Explore the fascinating world of ants with Ant Chronicles! Dive into their intricate behaviors, diverse species, and the ecosystems they create. Whether you're an ant enthusiast or just curious, discover in-depth ant biology, field studies, and ant-keeping tips. Join our community of ant lovers and uncover the secrets beneath our feet!</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3" onclick="window.location.href='signin.html'">Sign In</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="window.location.href='signup.html'">Sign Up</button>
+      </div>
+    </div>
+    <br>
+    <br>
+  </div>
+</section>
+
+
+<section>
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div  id="about" class="col-10 col-sm-8 col-lg-6">
+      <img src="./image/image.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <div class="text-background">
+        <div class="text-overlay">
+        <h1 class="fw-bold lh-1 mb-3">About Us</h1>
+        <p class="lead">Welcome to Ant Chronicles!
+          We are dedicated to exploring the fascinating world of ants and sharing insights about these incredible creatures. Our mission is to educate and inspire everyone, from enthusiasts to researchers, about the vital role ants play in our ecosystem.
+          Our team brings you the latest news, discoveries, and conservation efforts related to ants. We believe that awareness is key to preserving biodiversity and fostering a sustainable future.
+          Join us in uncovering the mysteries of the ant world. Thank you for visiting Ant Chronicles!</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="Features">
+      <div class="feat container-fluid px-4 py-0" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Features</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <a href="" class="no-underline">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark custom-card" style="background-image: url('./image/honeypot.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">In-depth Articles</h3>
+              </div>
+            </div>
+          </a>
+          </div>
+        <div class="col">
+          <a href="" class="no-underline">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark custom-card" style="background-image: url('./image/Harpegnathos_queen.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 text-nowrap fw-bold">Species Spotlights</h3>
+            </div>
+          </div>
+        </a>
+        </div>
+          <div class="col">
+            <a href="" class="no-underline">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark custom-card" style="background-image: url('./image/pavement-ant.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 text-nowrap fw-bold">Ant-Keeping Tips</h3>
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section id="footer">
+    <div class="container-fluid footer-text-white">
+      <footer class="py-5 mx-5 my-0">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Menu:</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#Home" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-body-secondary">About Us</a></li>
+              <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="privacy.html" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+              <li class="nav-item mb-2"><a href="terms.html" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Socials:</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.facebook.com/profile.php?id=61567020133190" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="https://www.facebook.com/profile.php?id=61567020133190" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="https://www.facebook.com/profile.php?id=61567020133190" class="nav-link p-0 text-body-secondary">Twitter</li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Contact Us:</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">Address: San Gregorio, Malvar, Bantangs, Philippines</li>
+              <li class="nav-item mb-2">Mail us: 22-69863@gmail.com</li>
+              <li class="nav-item mb-2">Phone: (981) 456 7891</li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to keep updated</h5>
+              <p>Stay informed with our monthly digest of the latest and most exciting content.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between pt-5 my-0 border-top">
+          <p>© 2024 Ants Chronicles, Inc. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+</section>
+
+    
+</body>
+</html>
