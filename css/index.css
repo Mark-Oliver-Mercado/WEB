@@ -5,6 +5,16 @@ html {
 body {
     font-family: 'Roboto', sans-serif !important;
 }
+.album{
+    background-color: #a3b18a !important;
+}
+#ants{
+    background-color: #a3b18a;
+    
+}
+.card-body {
+    background-color: #f1f2ed !important;
+  }
 
 .navbar{
     background-color: #0A5C36;
@@ -119,13 +129,17 @@ body {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
+#us{
+    background-color: #a3b18a !important;
+}
+
 
 .feat{
     background-color: #DAD7CD;
 }
 .footer-text-white {
     color: white !important;
-    background-color: #0A5C36;
+    background-color: #14452f;
 }
 
 .footer-text-white a {
